@@ -1,0 +1,37 @@
+//Czcionki i ikony
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Charmonman:400,700&display=swap&subset=latin-ext');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css');
+
+@import "settings/reset"; // reset,
+@import "settings/fonts"; // all webside fonts.
+@import "settings/colors"; // all colors,
+@import "settings/grid"; //grid
+@import "settings/components"; // all webside components like: buttons, menu, images etc,
+@import "layout.scss"; // all layout,
+
+
+//navigacja
+
+.list__navigation {
+  @media screen and (min-width: 768px){
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .hamburger {
+    display: none;
+  }
+}
+
+//Drukowanie
+@media print {
+  @import 'print';
+}
+
+
+//Mobile
+@media screen and (max-width: 768px) {
+}
