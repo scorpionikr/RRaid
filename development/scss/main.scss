@@ -9,7 +9,7 @@
 @import "settings/colors"; // all colors,
 @import "settings/grid"; //grid
 @import "settings/components"; // all webside components like: buttons, menu, images etc,
-@import "layout.scss"; // all layout,
+//@import "layout.scss"; // all layout,
 
 
 //navigacja
@@ -28,7 +28,7 @@
 
 //Drukowanie
 @media print {
-  @import 'print';
+
 }
 
 
